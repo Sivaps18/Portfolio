@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Siva">
+  
+   <!-- Updated meta tags -->
+   <meta name="description" content="Siva's Portfolio - Python Developer specializing in Django, Flask, and Data Science">
+   <meta name="keywords" content="Python, Django, Flask, MySQL, AWS, Data Science, Machine Learning, Portfolio">
+  
+   <title>SIVA's Portfolio</title>
+   <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <!-- Header: Navigation Bar -->
+  <header>
+    <div class="portfolio-title">PORTFOLIO</div>
+    <nav>
+      <!-- Slide Toggle for Dark Mode -->
+      <div id="dark-mode-toggle" class="toggle-switch" aria-label="Toggle dark mode" tabindex="0">
+        <div class="slider"></div>
+        <span id="sun-icon" class="icon">☀️</span>
+        <span id="moon-icon" class="icon">🌙</span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Home Section with animated text -->
+  <section id="home" class="animate-on-scroll">
+    <h1 class="animated-heading">I'm SIVA</h1>
+    <div class="home-content">
+      <p class="typing-effect">
+        <span class="line">Python Developer with 2 years of experience in backend development using Django and Flask.</span><br>
+        <span class="line">Skilled in designing and integrating RESTful APIs, managing MySQL databases, and implementing secure authentication using JWT and OAuth.</span><br>
+        <span class="line">Experienced in performance tuning, debugging, and version control with Git.</span><br>
+        <span class="line">Strong in writing clean, efficient, and maintainable code.</span><br>
+        <span class="line">Focused on building scalable, secure, and reliable backend systems that align with business needs.</span>
+      </p>
+      <img src="image.png" alt="Siva Portfolio Image" class="side-image" />
+    </div>
+    <div class="buttons-container">
+      <a href="SIVA P.pdf" download class="css-button-arrow--sky">Download Resume</a>
+      <a href="#contact" class="css-button-gradient">Contact Me</a>
+    </div>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2 class="section-heading">Projects</h2>
+    <!-- Project 1 -->
+    <div class="project animate-on-scroll">
+      <h3>CommunityBoard – Blockchain-based Community Management</h3>
+
+      <!-- Collapsible: Overview -->
+      <div class="collapsible">
+        <button class="toggle-btn">
+          <span class="icon">🛍️</span>
+          Overview
+        </button>
+        <div class="collapsible-content">
+          <p>CommunityBoard is a decentralized platform designed to streamline governance, decision-making, and community engagement using blockchain technology. By leveraging smart contracts and distributed ledgers, it ensures transparency, immutability, and trust among all participants.<br>
+
+            <span class="icon">💻</span> The platform allows administrators, moderators, and community members to collaborate efficiently in managing proposals, voting, task assignments, issue tracking, and feedback. All actions are recorded on the blockchain to maintain a tamper-proof record of decisions and activities.</br></p>
+        </div>
+      </div>
+
+      <!-- Collapsible: Modules -->
+      <div class="collapsible">
+        <button class="toggle-btn">
+          <span class="icon">⚙️</span>
+          Modules
+        </button>
+        <div class="collapsible-content">
+          <p><strong>Administration:</strong> Handles reports, FAQs, and admin roles with customized Django admin features.<br>
+          <strong>User Management:</strong> Role-based access control and user verification system.<br>
+          <strong>Content Moderation:</strong> Decentralized voting and content approval system.</p>
+        </div>
+      </div>
+
+      <!-- Collapsible: Technologies -->
+      <div class="collapsible">
+        <button class="toggle-btn">
+          <span class="icon">💻</span>
+          Technologies
+        </button>
+        <div class="collapsible-content">
+          <ul>
+            <li>Django & Django REST Framework</li>
+            <li>MySQL Database</li>
+            <li>RESTful APIs</li>
+            <li>Git Version Control</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Collapsible: Screenshots -->
+      <div class="collapsible">
+        <button class="toggle-btn">
+          <span class="icon">📸</span>
+          Screenshots
+        </button>
+        <div class="collapsible-content">
+          <p>Key interface screenshots:</p>
+          <div class="screenshots">
+            <img src="IMAGE1.jpg" alt="CommunityBoard Admin Dashboard">
+            <img src="IMAGE2.jpg" alt="CommunityBoard User Interface">
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    <!-- Project 2 -->
+    <div class="project animate-on-scroll">
+      <h3>NexaConnect – User Engagement & Content Management System</h3>
+      <div class="collapsible">
+        <button class="toggle-btn">
+          <span class="icon">🏡</span>
+          Overview
+        </button>
+        <div class="collapsible-content">
+          <p>Developed a comprehensive content management and user engagement platform that enables seamless interaction between users. The system includes features for content sharing, direct messaging, and wallet integration, enhancing the overall user experience.</p>
+        </div>
+      </div>
+      <div class="collapsible">
+        <button class="toggle-btn">
+          <span class="icon">📊</span>
+          Features
+        </button>
+        <div class="collapsible-content">
+          <ul>
+            <li>Content sharing and social modules</li>
+            <li>Direct messaging system</li>
+            <li>Wallet integration</li>
+            <li>Backend performance optimization</li>
+          </ul>
+        </div>
+      </div>
+      <div class="collapsible">
+        <button class="toggle-btn">
+          <span class="icon">💻</span>
+          Technologies
+        </button>
+        <div class="collapsible-content">
+          <ul>
+            <li>Flask Framework</li>
+            <li>SQLAlchemy ORM</li>
+            <li>RESTful API Design</li>
+            <li>AWS EC2 & S3</li>
+          </ul>
+        </div>
+      </div>
+      <div class="collapsible">
+        <button class="toggle-btn">
+          <span class="icon">📸</span>
+          Screenshots
+        </button>
+        <div class="collapsible-content">
+          <p>Application interface views:</p>
+          <div class="screenshots">
+            <img src="IMAGE3.jpg" alt="NexaConnect Dashboard">
+            <img src="IMAGE4.jpg" alt="NexaConnect Mobile View">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about-me">
+    <h2 class="section-heading">About Me</h2>
+    <div class="project animate-on-scroll">   
+      <button class="toggle-btn">Full Name and Introduction</button>
+      <div class="collapsible-content">
+        <p>Hi, I'm Siva, a Python Developer with 2 years of experience specializing in Django and Flask frameworks. I'm passionate about building scalable web applications and RESTful APIs. Currently working at Wingsser Solutions where I focus on delivering high-quality software solutions and optimizing backend performance.</p>
+      </div>
+
+      <button class="toggle-btn">Academic Background</button>
+      <div class="collapsible-content">
+        <ul>
+          <li><strong>Bachelor of Computer Applications (BCA):</strong> The American College, Madurai</li>
+          <li><strong>Higher Secondary:</strong> Nehru Vidhyasalai Hr.sec school (80.42%)</li>
+        </ul>
+      </div>
+
+      <button class="toggle-btn">Skills and Expertise</button>
+      <div class="collapsible-content">
+        <ul>
+          <li><strong>Programming Languages:</strong> Python, MySQL, HTML, CSS, JSON</li>
+          <li><strong>Frameworks:</strong> Django, Flask, Django REST Framework</li>
+          <li><strong>Database:</strong> MySQL, SQLite</li>
+          <li><strong>Tools:</strong> Git, GitHub, VS Code, Postman, AWS (EC2 & S3)</li>
+          <li><strong>Key Technical Skills:</strong> RESTful APIs, Django ORM, Flask SQLAlchemy, Linux (basic commands), Debugging & Logging</li>
+        </ul>
+      </div>
+
+      <button class="toggle-btn">Certifications</button>
+      <div class="collapsible-content">
+        <ul>
+          <li>Python Full Stack Developer Certification</li>
+          <li>Data Science With Python</li>
+          <li>Web Programming Essentials</li>
+        </ul>
+      </div>
+
+      <button class="toggle-btn">Projects and Contributions</button>
+      <div class="collapsible-content">
+        <ul>
+          <li><strong>CommunityBoard:</strong> Led backend development of a blockchain-based community management system with features for decentralized voting and content moderation.</li>
+          <li><strong>NexaConnect:</strong> Developed a content management system with features for content sharing, direct messaging, and wallet integration.</li>
+        </ul>
+      </div>
+
+      <button class="toggle-btn">Career Goals</button>
+      <div class="collapsible-content">
+        <ul>
+          <li><strong>Short-Term Goals:</strong> Enhance expertise in Django REST Framework and Flask for building more scalable applications. Explore cloud technologies further.</li>
+          <li><strong>Long-Term Goals:</strong> Become a technical lead specializing in Python backend systems and evolve into full-stack development with a focus on high-performance applications.</li>
+        </ul>
+      </div>
+
+      <div class="skills-visualization">
+        <h3>My Skills</h3>
+        <div class="skill-bars">
+          <div class="skill" data-skill="Python" data-percentage="95">
+            <div class="skill-tooltip"></div>
+          </div>
+          <div class="skill" data-skill="Django/Flask" data-percentage="90">
+            <div class="skill-tooltip"></div>
+          </div>
+          <div class="skill" data-skill="RESTful APIs" data-percentage="85">
+            <div class="skill-tooltip"></div>
+          </div>
+          <div class="skill" data-skill="MySQL" data-percentage="80">
+            <div class="skill-tooltip"></div>
+          </div>
+          <div class="skill" data-skill="HTML/CSS" data-percentage="75">
+            <div class="skill-tooltip"></div>
+          </div>
+          <div class="skill" data-skill="AWS" data-percentage="70">
+            <div class="skill-tooltip"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Looking for Jobs Section -->
+  <section id="looking-for-jobs" class="animate-on-scroll">
+    <h2 class="section-heading">Looking for Opportunities</h2>
+    <div class="job-list">
+      <div class="job-category">
+        <h3>Development</h3>
+        <ul>
+          <li>Python Developer</li>
+          <li>Backend Developer</li>
+          <li>Full Stack Python Developer</li>
+        </ul>
+      </div>
+      <div class="job-category">
+        <h3>Frameworks</h3>
+        <ul>
+          <li>Django Developer</li>
+          <li>Flask Developer</li>
+          <li>RESTful API Developer</li>
+        </ul>
+      </div>
+      <div class="job-category">
+        <h3>Data</h3>
+        <ul>
+          <li>Database Engineer</li>
+          <li>SQL Developer</li>
+          <li>Data Analyst</li>
+        </ul>
+      </div>
+      <div class="job-category">
+        <h3>Cloud/DevOps</h3>
+        <ul>
+          <li>AWS Cloud Developer</li>
+          <li>DevOps Engineer (Python)</li>
+          <li>Backend Systems Engineer</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me section -->
+  <section id="contact" class="animate-on-scroll">
+    <h2 class="section-heading">Contact Me</h2>
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="contact-item">
+          <span class="contact-icon">📧</span>
+          <p>sivaps1801@gmail.com</p>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">📱</span>
+          <p>+91 8667533683</p>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">📍</span>
+          <p>Chennai, India</p>
+        </div>
+      </div>
+      <form action="https://formspree.io/f/xqaebqgb" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required class="animated-input">
+        <input type="email" name="email" placeholder="Your Email" required class="animated-input">
+        <textarea name="message" placeholder="Your Message" required class="animated-input"></textarea>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+  <!-- Footer Section -->
+  <footer>
+    <p>Connect with me:</p>
+    <div class="social-links">
+      <a href="https://github.com/Pavithra832" target="_blank" class="social-btn">GitHub</a>
+      <a href="https://www.linkedin.com/in/sivaps18" target="_blank" class="social-btn">LinkedIn</a>
+    </div>
+    <p class="copyright">© 2025 Siva. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
